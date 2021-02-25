@@ -14,15 +14,16 @@
 
 .container {
   position: relative;
+  justify-content: center;
+  display: flex;
 }
 
 /* Bottom right text */
 .text-block {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  justify-content: center;
+  top: 5px;
+  background-color: transparent;
+  color: transparent;
+  display: flex;
 }
