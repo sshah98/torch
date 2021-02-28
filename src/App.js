@@ -77,7 +77,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Torch Dental</h2>
+      <h2>Torch Dental Coding Project</h2>
 
       {bigImage && (
         <Modal show={show} onHide={handleClose}>
@@ -146,6 +146,7 @@ function App() {
           {images.map((image) => (
             <Col sm={4} key={image}>
               <img
+                className="clickable-image"
                 src={buildURL(image)}
                 key={image}
                 alt={image}

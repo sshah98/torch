@@ -27,3 +27,11 @@
   color: transparent;
   display: flex;
 }
+
+img {
+  padding: 5px;
+}
+
+.clickable-image {
+  cursor: pointer;
+}
